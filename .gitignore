@@ -1,0 +1,30 @@
+# Python 가상환경 / 캐시
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# 환경 변수 파일
+.env
+.env.*
+
+# SQLite DB (개인 테스트용은 올릴 필요 X)
+*.db
+
+# VSCode / IDE 설정 (원하면 제외)
+.vscode/
+.idea/
+
+# Node / 프론트엔드
+node_modules/
+dist/
+build/
+*.cache
+*.tmp
+
+# OS 파일
+.DS_Store
+Thumbs.db
